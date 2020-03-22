@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    min-width: 500px;;
+    margin: 0;
+    position: relative;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+span {
+    font-size: 4rem;
+}
+.landing {
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.landing h1 { 
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.125rem;
+    margin-top: 0;
+    text-align: center;
+    width: 10vw;
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    color: black;
+}
+.landing h1:hover {
+    color: white;
+}
+hr {
+    border: none;
+    border-top: 5px dotted lightgrey;;
+    width: 15%;
+
+}
+section {
+    width: 50%;
+    margin: 10px auto 10px auto;
+}
+section h2 {
+    color: #48A3FE;
+}
+section p {
+    color: #212323;
+}
+.intro, .skill, .contact {
+    padding: 50px 0 50px 0;
+}
+.intro, .contact { 
+    text-align: center;
+}
+.hobbies {
+    padding: 50px 0 100px 0;
+}
+section img {
+    width: 150px;
+}
+.skill img {
+    float: left;
+    margin: 0 30px 30px 0;
+}
+.hobbies img {
+    float: right;
+    margin: 30px;
+    margin-right: 0;
+}
+.contact img {
+    width: 140px;
+    float: left;
+    margin: 30px;
+    margin-left: 0;
+}
+.intro img {
+    width: 250px;
+    float: none;
+}
+img#fb {
+    float: none;
+    width: 90px;
+    padding: 30px;
+    
+}
+img#fb:hover {
+    transform: scale(1.2); 
+}
+footer {
+    text-align: center;
+    height: 80px;
+    background-color: #48A3FE; 
+}
+footer p {
+    font-size: 14px;
+    padding-top: 30px;
+    color: black;
+}
+
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Rochester', cursive;
+font-family: 'Great Vibes', cursive;
+*/
